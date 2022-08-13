@@ -1,0 +1,15 @@
+name: testttttmin111
+on: [push]
+permissions: write-all 
+jobs:
+  num1:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        ip a
